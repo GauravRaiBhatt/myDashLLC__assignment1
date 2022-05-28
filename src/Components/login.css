@@ -1,0 +1,78 @@
+/* left box */
+#Login__Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(207, 203, 203, 0.754);
+}
+#Login__Left {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  margin: 0px 2px 0px 15px;
+  height: 96vh;
+}
+#Login__Left #toi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Login__Left #toi span {
+  text-align: center;
+  margin: 0vh 10vw;
+}
+
+/* Right box */
+#Login__Right {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin: 0px 15px 0px 2px;
+  padding-left: 5vw;
+  height: 96vh;
+}
+.Login__FormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 30vw;
+}
+.container input {
+  height: 1.25rem;
+  margin: 2px 0px;
+}
+#tnc {
+  display: flex;
+  align-items: center;
+}
+#tnc input {
+  margin-right: 5px;
+}
+#submit {
+  width: 15vw;
+  margin-top: 2rem;
+  background-color: #009affcc;
+  padding: 0.7rem 0px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.error{
+    font-size: .8rem;
+    color: red;
+}

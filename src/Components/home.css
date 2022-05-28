@@ -1,0 +1,8 @@
+#Home__Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background: url(../images/bg.png) no-repeat center center/cover ;
+}
